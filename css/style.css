@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    background-color: rgb(241, 241, 248);
+}
+/* ##########################   html classes#################3 */
+
+.header{
+    height: 95vh;
+    border: 30px sold red;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../image/header-image2.jpg');
+    background-position: center;
+    background-size:cover ;
+
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+
+
+
+}
+/* h3{
+    color: whitesmoke;
+
+} */
+.navbar{
+    border: 4px solid rgb(52, 48, 48);
+    
+}
+.navitem{
+   
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    margin-left: px;
+    margin-right: 50px;
+    
+   
+}
+
+a{
+    color: aliceblue;
+    text-decoration-line: none;
+
+}
+
+.div1{
+    /* border: 3px solid green; */
+    margin-top:7cm;
+    margin-left: 02cm;
+}
+.div2{
+    /* border: 2px solid yellow; */
+    width: 600pxpx;
+    /* margin-top:4cm;
+    margin-left: 13cm; */
+    margin-left: 250px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+   font-size:x-small;
+   margin-top: 10px;
+   
+}
+.pkt{
+    color: rgb(30, 18, 18);
+     border: 1.5px solid white;
+    background-color: rgb(237, 240, 243);
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 80px;
+    font-weight: 500; 
+
+}
+.pk{
+    margin-left: 500px;
+    /* border: 3px solid red; */
+    margin-top: 20px;
+    
+}
+
+
+/* ####################3  section class ka operation   ##################3 */
+
+
+.section{
+    /* border: 2px solid yellow; */
+    margin: 1rem 10rem;
+    
+    
+
+
+}
+
+.sec1{
+    height: 350px;
+    margin-bottom: 50px;
+    /* border: 3px solid black; */
+    background-color: #fff;
+    box-shadow: 5px 5px 20px 0px #aaa;
+}
+
+
+.sec2{
+    height: 350px;
+    margin-top: 10px;
+
+    /* border: 3px solid green; */
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.img1{
+    float: left;
+    width: 50%;
+    /* border: 2px solid goldenrod; */
+    height: 100%;
+    /* background: url('../image/showcase-photo3.jpg'); */
+    /* object-position: 400px; */
+}
+
+.img2{
+    float: right;
+    width: 50%;
+    /* border: 2px solid rgb(44, 28, 114); */
+    height: 100%;
+    /* background: url('../image/showcase-photo1.jpg'); */
+    object-fit: cover;
+    /* border-image: auto;     */
+}
+
+
+.text1{
+    /* border: 2px solid rgb(132, 13, 79); */
+    padding: left 10px;
+    /* background-color: white; */
+    
+}
+
+/* .text2{
+    border: 2px solid rgb(19, 185, 58);
+} */
+.image1{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+}
+.image2{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .texth2 {
+    color: black;
+    margin-top: 10px;
+}
+.textclassp{
+    color: black;
+    margin-top: 30px;
+    font-weight: 500;
+    /* border: 3px dotted black;
+    text-align: justifyt;
+    padding-left: 50px; */
+    font-family: Arial, Helvetica, sa;
+    
+
+}
+
+.amore{
+    color: rgb(220, 51, 51);
+   position: relative;
+   top: 30px;
+   left: 70px;
+   border: 3px solid rgb(213, 89, 89);
+   border-radius: 20px;
+   padding: 3px 5px;
+   width:fit-content;
+   
+}
+
+/* #####################   features  elemtnt##################################3 */
+
+/* .sectionfloat{
+    background-color: rgb(134, 96, 96);
+    
+} */
+.floatdiv{
+    display: inline-block;
+    height: 300px;
+    margin: 40px;
+    
+    
+}
+.float1{
+    float:left ;
+    width: 35%;
+    height: 60%;
+    border: 2px solid black ;
+    background-color: rgba(11, 11, 117, 0.711);
+}
+.float2{
+    float: right;
+    width: 30%;
+    height: 60%;
+    border: 2px solid rgb(224, 191, 191) ;
+    background-color: rgba(14, 14, 98, 0.711);
+}
+.float3{
+    border: 2px solid rgb(190, 202, 21) ;
+    background-color: rgba(174, 14, 14, 0.758);
+    height: 60%;
+    
+}
+
+.cl2{
+    padding:10px;
+
+}
+/* ################### footer################### */
+#footer{
+    background-color: black;
+    /* width: ; */
+    margin-left: 1cm;
+    
+}
+.footerp{
+    font-size: larger;
+    text-align: center;
+}
+
+/* ######################3about page####################33 */
+.navitems12{
+    background-color: black;
+}
+
+.abouth2{
+   color: black;
+   /* border-bottom: 5px solid red; */
+}
+
+.divborder{
+    /* background-color: rgb(212, 24, 24); */
+    width: 300px;
+    align-items: center;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    
+}
+.abouth2::after{
+    content: "";
+    display: block;
+    border: 3px solid red;
+    width: 100%;
+}
+.paclass{
+    color: black;
+}
+
+.aboutp{
+    color: black;
+    padding-left: 1cm;
+}
+
+.aboutpagediv{
+    /* background-color:red; */
+    /* border: 3px solid rgb(209, 16, 16); */
+    width: 60%;
+    /* padding-left: 2cm; */
+    /* padding-bottom: 1cm; */
+    padding: 1cm 2cm;
+    
+}
+.pclass1{
+    /* border: 2px solid green; */
+    float: left;
+    width: 50%;
+    margin-right: 1cm;
+}
+/* .pclass2{
+    border: 2px solid rgb(25, 3, 109);
+   
+    
+
+} */
+.sectionabout{
+    /* border: 3px solid green; */
+    width: 70%;
+    margin-top: 0.5cm;
+    margin-left: 7cm;
+}
+
+.aboutp::before{
+    content: "\2713";
+    font-weight: bold;
+    margin-right: 5px;
+    color: rgb(228, 17, 17);
+}
+
+.flite2{
+    color: black;
+
+}
+.flite1{
+    color: rgb(202, 30, 30);
+
+}
+.flite{
+    /* border: 3px solid black; */
+    display: inline-block;
+    width: 1000px;
+
+}
+
+
+.us1{
+    float: left;
+    width: 25%;
+
+}
+.us2{
+    float: right;
+    width: 25%;
+}
+.us3{
+    float: right;
+    width: 25%;
+
+}
+.us4{
+    float: right;
+    width: 25%;
+}
+
+.conect{
+    border: 2px solid black ;
+    height: 1.5cm;
+    width:900px;
+    display: inline-block;
+    background-color: rgb(229, 18, 18);
+    
+
+    
+
+}
+.conect1{
+    float: left;
+    width: 80%;
+    
+}
+.conect2{
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+
+}
+.contant1{
+    border: 4px solid white ;
+    color:white;
+    font-weight: bold;
+    border-radius: 8px;
+    height:fit-content ;
+    margin-top: 25px;
+
+}
+
+/* #########################3content page#####################################3 */
+.divcot{
+    /* background-color: blue; */
+    /* border: 3px solid red; */
+    
+    height: 900px;
+    width: 80%;
+    margin: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin: 2cm 3cm;
+}
+
+.divcot1{
+    float: left;
+    width: 48%;
+    /* border: 3px solid rgb(34, 130, 29); */
+    background-color: rgba(0, 225, 255, 0.195);
+    height: 100%;
+    border-radius: 50px;
+
+}
+
+.divcot2{
+    float: right;
+    /* border: 3px solid rgb(164, 205, 17); */
+    background-color:rgba(0, 225, 255, 0.195) ;
+    width: 48%;
+    border-radius: 40px;
+    height: 100%;
+}
+
+.cotp{
+    color: rgb(244, 236, 236);
+    font-size: 25px;
+    padding-top: .5cm;
+    /* margin-left: 1PX; */
+    margin-top: 1cm;
+    /* background-color: rgb(246, 80, 80); */
+    /* border: 3px solid green; */
+    color: black;
+    
+}
+.pcotp{
+    color: black;
+    letter-spacing: 2px;
+    font-size:medium ;
+    margin-left: 2cm;
+}
+
+.mtop{
+    width: 500px;
+    /* border-bottom:3px solid red; */
+}
+
+.imgcomp{
+    width: 492px;
+    height: 475px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.cotp2{
+    color: black;
+    padding: 5px 10px;
+}
+
+.form{
+    padding: 10px 30px;
+}
+.massage{
+    height: 140px;
+    /* width: 300px; */
+}
+.submit{
+    color: white;
+    background-color: rgb(228, 12, 12);
+    /* max-width: max-content; */
+    width: 100px;
+    border-radius: 2px;
+    border-color: red;
+    
+
+}
+/* ######################### media query ###################### */
+@media (max-width:500px){
+    /* .header{
+        font-size: 50%;
+        
+
+    }
+    .navbar .navitem{
+        float: none;
+        display:block;
+        width: 100%;
+        text-align:center;
+
+
+    } */
+
+
+    .header {
+        height: 95vh;
+        border: 4px solid red; /* Corrected 'sold' to 'solid' */
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/header-image2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+   
+    
+    
+
+
+}
+@media (max-width: 768px) {
+    .header {
+        height: 70vh;
+    }
+
+    .section {
+        margin: 1rem 2rem;
+    }
+
+    .div1 {
+        margin-top: 3cm;
+        margin-left: 1cm;
+    }
+
+    /* Add more responsive styles as needed */
+}
+@media (max-width:500px){
+    .navbar{
+        float: none;
+        align-items: center;
+        text-align: center;
+    }
+    .sectionabout{
+        object-fit: cover;
+        display: inline-block;
+        float: none;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        padding-left: 0%;
+    }
+    .divborder{
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        padding-left: 0%;
+    }
+    .pclass1{
+        display: inline-block;
+    }
+    .pclass2{
+        display: inline-block;
+    }
+    .flite .flite1 .flite2{
+        display: inline-block;
+        float: none;
+    }
+    .divcot{
+        display: inline-block;
+        float: none;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .divcot1{
+        display: block;
+        float: none;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .divcot2{
+        display: block;
+        float: none;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .conect{
+        margin: 0%;
+        padding: 0%;
+        display: block;
+        float: none;
+        align-items: center;
+        text-align: center;
+    }
+    .conect1{
+        margin: 0%;
+        padding: 0%;
+        display: block;
+        float: none;
+        align-items: center;
+        text-align: center;
+    }
+    .conect2{
+        margin: 0%;
+        padding: 0%;
+        display: block;
+        float: none;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
